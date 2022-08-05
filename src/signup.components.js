@@ -33,7 +33,7 @@ export default class SignUp extends Component {
           />
         </div>
         <div className="d-grid">
-          <button type="submit" className="btn btn-primary">
+          <button type="submit" className="btn btn-dark bg-gradient">
             Sign Up
           </button>
         </div>

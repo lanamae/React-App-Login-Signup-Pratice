@@ -10,20 +10,20 @@ function App() {
   return (
     <Router>
       <div className='App'>
-        <nav className='navbar navbar-expand-lg navbar-light bg-warning bg-gradient fixed-top'>
+        <nav className='navbar navbar-expand-lg navbar-light bg-dark bg-gradient fixed-top'>
           <div className='container'>
-            <Link className='navbar-brand fs-5 fw-5' to={'/sign-in'}>
+            <Link className='navbar-brand fs-5 fw-5 text-white' to={'/sign-in'}>
               REACT PRACTICE
             </Link>
             <div className='collapse navbar-collapse' id='navbarTogglerDemo2'>
               <ul className='navbar-nav ml-auto'>
                 <li className='nav-item'>
-                  <Link className='nav-link' to={'/sign-in'}>
+                  <Link className='nav-link text-info' to={'/sign-in'}>
                     Login
                   </Link>
                 </li>
                 <li className='nav-item'>
-                  <Link className='nav-link' to={'/sign-up'}>
+                  <Link className='nav-link text-primary' to={'/sign-up'}>
                     Signup
                   </Link>
                 </li>

@@ -17,7 +17,7 @@ code {
   box-sizing: border-box;
 }
 body {
-  background: linear-gradient(to left, #cea3a3 50%, #bb6767 50%) !important;
+  background: linear-gradient(to right, #cea3a3 60%, #bb6767) !important;
   min-height: 100vh;
   display: flex;
   font-weight: 400;

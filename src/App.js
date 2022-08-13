@@ -15,7 +15,7 @@ function App() {
             <Link className='navbar-brand fs-5 fw-5 text-white' to={'/sign-in'}>
               REACT PRACTICE
             </Link>
-            <div className='collapse navbar-collapse' id='navbarTogglerDemo2'>
+            <div className='collapse navbar-collapse d-block' id='navbarTogglerDemo2'>
               <ul className='navbar-nav ml-auto'>
                 <li className='nav-item'>
                   <Link className='nav-link text-info' to={'/sign-in'}>

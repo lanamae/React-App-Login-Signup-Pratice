@@ -3,8 +3,7 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom';
-import Login from './login.components';
-import Signup from './signup.components';
+ 
 
 function App() {
   return (
